@@ -10,7 +10,8 @@ const appRoutes = [
   { path: 'about', component: AboutComponent, pathMatch: 'full' },
   { path: 'prizes', component: PrizesComponent, pathMatch: 'full' },
   { path: 'mint', component: MintComponent, pathMatch: 'full' },
-  { path: 'default', component: DefaultComponent, pathMatch: 'full' }
+  { path: 'default', component: DefaultComponent, pathMatch: 'full' },
+  { path: '**', component: DefaultComponent, pathMatch: 'full' }
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);
