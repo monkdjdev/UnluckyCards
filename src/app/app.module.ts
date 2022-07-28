@@ -8,6 +8,7 @@ import { routing } from './app.routing';
 import { AboutComponent } from './views/about/about.component';
 import { PrizesComponent } from './views/prizes/prizes.component';
 import { MintComponent } from './views/mint/mint.component';
+import { BackgroundComponent } from 'src/components/background/background.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MintComponent } from './views/mint/mint.component';
     NavbarComponent,
     AboutComponent,
     PrizesComponent,
-    MintComponent
+    MintComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
