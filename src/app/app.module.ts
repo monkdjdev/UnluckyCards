@@ -9,6 +9,7 @@ import { AboutComponent } from './views/about/about.component';
 import { PrizesComponent } from './views/prizes/prizes.component';
 import { MintComponent } from './views/mint/mint.component';
 import { BackgroundComponent } from 'src/components/background/background.component';
+import { DefaultComponent } from './views/default/default.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BackgroundComponent } from 'src/components/background/background.compon
     AboutComponent,
     PrizesComponent,
     MintComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    DefaultComponent
   ],
   imports: [
     BrowserModule,
